@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: sticky;
+    display: flex;
+    justify-content: center;    /*rozmieszczanie po osi głównej, u nas x*/
+    align-items: center;  /*rozmieszczanie po osi przeciwstawnej, u nas y*/
+    min-height: 100vh;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 500;
+    
+    /*
+    color: rgba(235, 241, 245, 0.8);*/
+  }
+
+
+
+
+html, .root {
+    font-size: 20px; 
+    line-height: 33px;
+    height: 100%;
+  }
+  body, .article {
+    
+    
+    font-size: 1em;
+    line-height: 1.65em;
+    margin: auto;
+  }
+  h1, .h1 {
+    font-size: 4.85em;
+    line-height: 1.02061856em;
+
+    
+    
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.8em;
+    line-height: 1em;
+    margin-top: 0.33333333em;
+    margin-bottom: 0.33333333em;
+    
+  
+    padding: 0.7em;
+    font-size: 2em; 
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+    
+  }
+  h2, .h2 {
+  
+    font-size: 1.4em;
+    /*line-height: 1.94117647em;*/
+    margin-top: 0.97058824em;
+    margin-bottom: 0.97058824em;
+    color:  rgba(14, 15, 1, 0.7);
+    font-weight: 900;
+   
+  }
+  h3, .h3 {
+   
+    font-size: 0.7em;
+    line-height: 1.94117647em;
+    margin-top: 0.97058824em;
+    margin-bottom: 0.97058824em;
+    color:  rgba(14, 15, 1, 0.7);
+    font-weight: 900;
+  
+    
+  }
+  h4, .h4 {
+   
+    font-size: 0.6em;
+    line-height: 1.334117647em;
+    margin-top: 0.37058824em;
+    margin-bottom: 0.37058824em;
+    color:  rgba(14, 15, 1, 0.7);
+    font-weight: 900;
+  
+    
+  }
+
+  h5, .h5 {
+   
+    font-size: 0.5em;
+    line-height: 1.034117647em;
+    margin-top: 0.97058824em;
+    margin-bottom: 0.97058824em;
+    color:  rgba(14, 15, 1, 0.7);
+    font-weight: 900;
+  }
+

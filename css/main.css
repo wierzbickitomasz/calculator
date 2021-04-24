@@ -1,0 +1,134 @@
+.calculator {
+    background-color: brown;
+    min-height: 300px;
+    min-width: 200px;
+    max-width: 300px;
+    width: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;    /*rozmieszczanie po osi głównej, u nas x*/
+    align-items: center;  /*rozmieszczanie po osi przeciwstawnej, u nas y*/
+    height: 70%;
+}
+.content {
+    background-color: rgb(191,113,175);
+    border:10px rgb(191,113,175) solid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    background-color: #212121;
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#calculations {
+ 
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+#calculations_text {
+
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    color: #ca7989;
+}
+#result {
+
+    width: fit-content;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+#result_text {
+
+    width: fit-content;
+    height: fit-content;
+    font-size: 50px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+
+.buttons {
+    background-color: yellow;
+    width: 100%;
+    height: 70%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.button {
+    width: 25%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.double_button {
+    width: 50%;
+    height: 20%;
+    background-color: #e62e89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#num_7, #num_4, #num_1, #num_0 {
+    box-shadow: 
+    70px 70px 70px 0 rgba(248,248,248, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+}
+#num_8, #num_5, #num_2, #comma {
+    box-shadow: 
+    70px 70px 70px 0 rgba(248,248,248, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+ 
+}
+#num_9, #num_6, #num_3 {
+    box-shadow: 
+    70px 70px 70px 0 rgba(255, 255, 255, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+}
+#addition, #multiplication, #division, #subtraction {
+    box-shadow: 
+    70px 70px 70px 0 rgba(133,71,218, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+}
+#percent {
+    box-shadow: 
+    70px 70px 70px 0 rgba(235,235,235, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+}
+#plus_minus {
+    box-shadow: 
+    70px 70px 70px 0 rgba(240,240,240, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+}
+#C {
+    box-shadow: 
+    70px 70px 70px 0 rgba(245,245,245, 1) inset,
+    -60px -60px 60px 0 rgba(255, 255, 255, 0.8) inset;
+}
